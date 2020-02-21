@@ -223,7 +223,7 @@ describe('What season', () => {
                     return Date.prototype.getSeconds.call(new Date(1, 4, 6, 7, 8, 9));
                 },
                 getMilliseconds() {
-                    return Date.prototype.getMilliseconds.call(new Date(2019, 7, 8, 9, 10, 11));
+                    return Date.prototype.getDay.call(new Date(1812, 8, 9, 10, 11, 12));
                 },
                 getDay() {
                     return Date.prototype.getDay.call(new Date(1812, 8, 9, 10, 11, 12));
